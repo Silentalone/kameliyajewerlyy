@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <title>Kameliya</title>
+    
+</head>
+<body>
+
+    <header>
+        <div class="header-content">
+            <img src="logo.jpg" alt="Kameliya Logo" id="logo">
+            <div id="company-name">Kameliya</div>
+        </div>
+    </header>
+    
+    <div class="slogan-container">
+        <div class="slogan">
+            <p class="slogan-text">Бізбен бірге коркінізге жаркын екпін косыныз!
+            </p>
+        </div>
+    </div>
+    <div class="girls-photo">
+        <img src="asel.jpg" alt="Girl 1" class="girl">
+        <img src="ekinki.jpg" alt="Girl 2" class="girl">
+        <img src="ushinshi.jpg" alt="Girl 3" class="girl">
+    </div>
+    <p class="phototxt">
+        140+ канагаттанган клиенттер<br>
+        1 жыл кепілдік<br>
+        Тэжірибелі дизайнерлер,шеберлер мен менеджерлер командасы.
+    </p>
+    <div class="advantages">
+        <div class="artyk1"><img src="artyk1.jpg" alt=""></div>
+        <div class="artyktxt">
+            <h2>Артықшылықтар:</h2>
+        <p>
+            1. Дизайн даралыгы<br>
+            2. Тегін жеткізую<br>
+            3. Фирмалык каптама<br>
+            4. 1 жыл кепілдік <br>
+            </p>
+        </div>
+        <div class="artyk2"><img src="artyk2.jpg" alt=""></div>
+    </div>
+    <div class="work">
+        <h2>Қалай жұмыс жасайды?        </h2>
+        <ol>
+            <li>Менеджермен жеке кездесу
+                Менеджер тастардын калындыгы мен ені, олшемі
+                мен тусі, асыл металдын жукалыгы мен турі сиякты
+                ен усак болшектерді тіркей отырып, олшемдерді
+                алады.</li>
+            <li>Модельермен кездесу
+                Дизайнер сіздін барлык тілектерінізді ескере отырып,
+                эскизді аяктайды.</li>
+            <li>Зд моделін курау</li>
+            <li>Дайын онімді кабылдау</li>
+          </ol>
+    </div>
+    <div class="zakaz">
+        <label for="name">Имя:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Почта:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Номер телефона:</label>
+        <input type="tel" id="phone" name="phone" required>
+        <button class="order-button">
+            <a href="https://wa.me/77074264926">Тапсырыс беру</a>
+        </button>
+    </div>
+    <div class="koguvcavis-varazdel">
+        <div class="sestim-donials">
+        <h1>Отзывы</h1>
+        <div class="sectionesag"></div>
+        <div class="sagestim-lonials">
+        <div class="vemotau-vokusipol">
+        <div class="testimonial">
+        <img src="otzyv1.jpg" alt="">
+        <div class="gecedanam">Алтынай Аманбайқызы</div>
+        <div class="apogered-gselected">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        </div>
+      
+        <p>1 апта бұрын тапсырыс бердім,маған өте қатты ұнады,тапсырыс бергеннен кейін сақинам тез арада дайын болды
+        </p>
+        </div>
+        </div>
+      
+        <div class="vemotau-vokusipol">
+        <div class="testimonial">
+        <img src="otzyv2.jpg" alt="">
+        <div class="gecedanam">Анар</div>
+        <div class="apogered-gselected">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="far fa-star"></i>
+        <i class="far fa-star"></i>
+        </div>
+      
+        <p>Анама күміс білезікті осы kameliya дүкенінен жасатқан болатынмын,менде анамда риза болдық,үлкен рахмет.</p>
+        </div>
+        </div>
+      
+        <div class="vemotau-vokusipol">
+        <div class="testimonial">
+        <img src="otzyv3.jpg" alt="">
+        <div class="gecedanam">Антон Волков</div>
+        <div class="apogered-gselected">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="far fa-star"></i>
+        </div>
+      
+        <p>Очень классная команда,сделали мне украшения моей мечты ещё и качественно.
+        </p>
+        </div>
+        </div>
+        </div>
+
+    <footer>
+        <div class="contact-info">
+            <p>Instagram: @kameliya_ jewelerry</p>
+            <p>Email: kameliya_ jewelerry@email.com</p>
+            <a href="https://wa.me/77074264926">Телефон: +7 707 426 49 26</a>
+        </div>
+    </footer>
+
+</body>
+</html>

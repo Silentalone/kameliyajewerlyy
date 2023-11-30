@@ -1,0 +1,299 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+
+img{
+    border-radius: 10px;
+}
+header {
+    background-color: #f5f5f5; /* Цвет фона заголовка, при необходимости измените */
+    padding: 20px;
+    text-align: center;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    max-width: 100px;
+    height: auto;
+    margin-right: 20px; 
+}
+
+#company-name {
+    font-size: 72px;
+    font-weight: bold;
+    margin-left: 33%;
+}
+
+
+.slogan-container {
+
+    background-image: url('fon_auto_x2.jpg'); 
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #fff;
+    padding: 50px; 
+    height: 17em;
+    align-items: center;
+}
+.slogan-container p{
+    font-size: 32px;
+    line-height: 1.5;
+    font-weight: bold;
+    color: #333;
+    margin-top: 20px;
+    font-family: 'Arial', sans-serif; /* Выберите подходящий шрифт */
+    background-color: #fff; /* Белый фон */
+    padding: 20px; /* Внутренний отступ для закругленных углов */
+    border-radius: 10px; /* Закругленные углы */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Тень для выделения текста от фона */
+}
+
+.slogan1 {
+    
+}
+
+.sloganphoto {
+    max-width: 100%; /* Фото будет занимать всю ширину контейнера */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+
+.girls-photo {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+    overflow: hidden;
+}
+
+.girl {
+    max-width: 250px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.phototxt{
+    text-align: center;
+    font-weight: 600;
+    font-size: 27px;
+}
+/* Ваши существующие стили */
+
+.work {
+    background-color: #fff; /* Белый фон раздела */
+    padding: 50px; /* Поля вокруг содержимого */
+    text-align: center;
+    border-radius: 15px; /* Закругленные углы */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Тень для выделения от фона */
+}
+
+.work h2 {
+    font-size: 36px;
+    color: #333; /* Цвет заголовка */
+}
+
+.work ol {
+    text-align: left;
+    max-width: 600px;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-top: 20px;
+}
+
+
+/* Стили для блока с преимуществами */
+.advantages {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    background-color: #447282; /* Цвет фона блока */
+    color: #fff; /* Цвет текста */
+    padding: 50px; /* Внутренние отступы */
+    text-align: center;
+    border-radius: 15px; /* Закругленные углы */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); 
+}
+
+.artyktxt {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.artyktxt h2 {
+    margin-bottom: 10px;
+}
+
+.artyktxt p {
+    font-size: 27px;
+}
+
+.artyk1,
+.artyk2 {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.artyk1 img,
+.artyk2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.zakaz{
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 4%;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.order-button {
+    margin-left: 30%;
+    background-color: #447282;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease; /* Анимация при изменении цвета фона, текста и размера */
+}
+
+.order-button:hover {
+    background-color: #528c9f ;
+    color: #fff;
+    transform: scale(1.12); /* Увеличение на 5% при наведении */
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #447282;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    transition: border 0.3s; 
+}
+
+input:focus {
+    outline: none;
+    border: 4px solid #5996aa;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+label {
+    font-size: 18px;
+    margin-bottom: 6px;
+    display: block;
+}
+
+
+.koguvcavis-varazdel {
+    padding: 38px 0;
+    
+    color: #2f2f2f;
+    text-align: center;
+  }
+  .sestim-donials{
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+  }
+  
+  .sectionesag {
+    width: 195px;
+    height: 3px;
+    background: #498a2d;
+    margin: 23px auto;
+  }
+  
+  .sagestim-lonials{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .vemotau-vokusipol{
+    flex: 33.33%;
+    max-width: 33.33%;
+    box-sizing: border-box;
+    padding: 15px;
+  }
+  .testimonial {
+    background: #f9f4f4;
+    padding: 28px;
+  }
+  .testimonial img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  .gecedanam{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 20px 0;
+  }
+  .apogered-gselected{
+    color: #53b32b;
+    margin-bottom: 20px;
+  }
+  
+  @media screen and (max-width:960px) {
+  .vemotau-vokusipol{
+    flex: 100%;
+    max-width: 80%;
+  }
+  }
+  
+  @media screen and (max-width:600px) {
+  .vemotau-vokusipol{
+    flex: 100%;
+    max-width: 100%;
+  }
+  }
+
+
+
+footer {
+    background-color: #447282;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-left: 0%;
+}
+
+.contact-info {
+    margin-top: 10px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
